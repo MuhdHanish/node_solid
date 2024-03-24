@@ -1,0 +1,8 @@
+{
+  "name": "node_solid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MuhdHanish/node_solid.git",
+  "author": "MuhdHanish <muhammedhanish11@gmail.com>",
+  "license": "MIT"
+}
