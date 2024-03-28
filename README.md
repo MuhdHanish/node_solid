@@ -1,17 +1,12 @@
 # SOLID Node.js TypeScript Server
 
-This project is a demonstration of building a Node.js server using TypeScript while adhering to SOLID principles and clean architecture.
+This project is a demonstration of building a Node.js server using TypeScript while adhering to SOLID principles and clean architecture. SOLID principles are a set of five object-oriented design principles that help developers create more maintainable and scalable software. This server showcases how to apply these principles to a real-world application, resulting in a codebase that is easier to understand, extend, and maintain.
 
-## Table of Contents
+In addition to SOLID principles, this project also emphasizes clean architecture. Clean architecture promotes separation of concerns and decoupling of dependencies, making the codebase more modular and testable. By following clean architecture principles, this server achieves a high level of flexibility and robustness, enabling easier maintenance and future enhancements.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Routes](#routes)
-- [Environment Variables](#environment-variables)
-- [Dependencies](#dependencies)
+The server provides endpoints for user registration. Users can register with a name, email, and password. Upon registration, a welcome email is sent to the user's email address. The server is designed to be scalable and extensible, allowing for easy integration of additional features and functionalities.
 
-## Description
+## SOLID principles
 
 SOLID is an acronym that represents five design principles of object-oriented programming, aimed at making software designs more understandable, flexible, and maintainable. Here's a brief overview of each principle:
 
@@ -22,6 +17,15 @@ SOLID is an acronym that represents five design principles of object-oriented pr
 - **D** - Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules. Both should depend on abstractions, and abstractions should not depend on details.
 
 Adhering to these principles can lead to more modular, maintainable, and scalable code.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Routes](#routes)
+- [Environment Variables](#environment-variables)
+- [Dependencies](#dependencies)
 
 ## Installation
 
