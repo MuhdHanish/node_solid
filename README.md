@@ -58,7 +58,6 @@ Environment variables can be configured in the `.env` file. Required variables i
 - `dotenv`: Module for loading environment variables from a `.env` file.
 - `typescript`: A superset of JavaScript that adds static typing to the language.
 - `ts-node-dev`: TypeScript execution and development tool that restarts the server on file changes.
-- Other dependencies: List any additional dependencies here.
 
 ## Feedback
 
