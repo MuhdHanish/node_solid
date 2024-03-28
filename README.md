@@ -63,6 +63,10 @@ Environment variables can be configured in the `.env` file. Required variables i
 
 If you have any feedback, please reach me at [muhammedhanish11@gmail.com](mailto:muhammedhanish11@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/muhdhanish/).
 
+## Contributing
+
+Contributions are welcome! 
+
 ## Support
 
 Show your support by 🌟 the project!!
