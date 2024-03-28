@@ -1,5 +1,5 @@
-import Mail from "nodemailer/lib/mailer";
 import nodemailer from 'nodemailer';
+import Mail from "nodemailer/lib/mailer";
 import { IMailProvider, IMessage } from "../IMailProvider";
 
 // Implementation of the IMailProvider interface using Gmail SMTP
