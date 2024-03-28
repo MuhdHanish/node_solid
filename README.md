@@ -45,7 +45,6 @@ Environment variables can be configured in the `.env` file. Required variables i
 ## Routes
 
 - `POST /users`: Register a new user.
-- Other routes: Add descriptions of other routes if applicable.
 
 ## Environment Variables
 
