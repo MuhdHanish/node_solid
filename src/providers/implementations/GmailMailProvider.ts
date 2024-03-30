@@ -12,7 +12,7 @@ export class GmailMailProvider implements IMailProvider {
         this.transporter = nodemailer.createTransport({
             service: `gmail`, // Use Gmail service
             auth: {
-                user: 'example@mail.com', // Your Gmail email address
+                user: 'example@gmail.com', // Your Gmail email address
                 pass: 'example.password' // Your One Time Password For Sending Email
             }
         });
