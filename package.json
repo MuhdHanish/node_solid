@@ -1,13 +1,22 @@
 {
   "name": "node_solid",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "This project is a demonstration of building a Node.js server using TypeScript while adhering to SOLID principles and clean architecture.",
+  "main": "src/server.ts",
   "repository": "https://github.com/MuhdHanish/node_solid.git",
   "author": "MuhdHanish <muhammedhanish11@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
   },
+  "keywords": [
+    "server",
+    "node",
+    "express",
+    "typescript",
+    "SOLID principles",
+    "clean-architucture"
+  ],
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.1",
