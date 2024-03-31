@@ -26,6 +26,9 @@ Adhering to these principles can lead to more modular, maintainable, and scalabl
 - [Routes](#routes)
 - [Environment Variables](#environment-variables)
 - [Dependencies](#dependencies)
+- [Feedback](#feedback)
+- [Contributing](#contributing)
+- [Support](#support)
 
 ## Installation
 
