@@ -7,4 +7,7 @@ export interface IUsersRepository {
 
     // Save a user to the storage
     save(user: User): Promise<void>;
+
+    // Find all users
+    getUsers(): Promise<User[]>;
 }
