@@ -4,7 +4,7 @@ This project is a demonstration of building a Node.js server using TypeScript wh
 
 In addition to SOLID principles, this project also emphasizes clean architecture. Clean architecture promotes separation of concerns and decoupling of dependencies, making the codebase more modular and testable. By following clean architecture principles, this server achieves a high level of flexibility and robustness, enabling easier maintenance and future enhancements.
 
-The server provides endpoints for user registration. Users can register with a name, email, and password. Upon registration, a welcome email is sent to the user's email address. The server is designed to be scalable and extensible, allowing for easy integration of additional features and functionalities.
+The server provides endpoints for user registration and retrieving users. The server is designed to be scalable and extensible, allowing for easy integration of additional features and functionalities.
 
 ## SOLID principles
 
@@ -24,7 +24,6 @@ Adhering to these principles can lead to more modular, maintainable, and scalabl
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Routes](#routes)
-- [Environment Variables](#environment-variables)
 - [Dependencies](#dependencies)
 - [Feedback](#feedback)
 - [Contributing](#contributing)
@@ -34,31 +33,25 @@ Adhering to these principles can lead to more modular, maintainable, and scalabl
 
 1. Clone the repository.
 2. Run `yarn install` to install dependencies.
-3. Set up environment variables by creating a `.env` file based on the provided `.env.example` file.
-4. Run `yarn start` to start the server.
+3. Run `yarn start` to start the server.
 
 ## Usage
 
-This server provides endpoints for user registration and authentication. Users can register with a name, email, and password. Upon registration, a welcome email is sent to the user's email address.
+This server provides endpoints for user registration and retrieving all users. Users can register with a name, email, and password, and all users can be retrieved using the `GET /users` endpoint.
 
 ## Configuration
 
-Environment variables can be configured in the `.env` file. Required variables include `PORT` for specifying the server port, `SENDER_EMAIL` and `SENDER_NAME` for configuring the sender email address and name for outgoing emails.
+No environment variables are required for this project.
 
 ## Routes
 
 - `POST /users`: Register a new user.
-
-## Environment Variables
-
-- `PORT`: Specifies the server port. Default is `8000`.
-- `SENDER_EMAIL`: Email address for sending outgoing emails.
-- `SENDER_NAME`: Name of the sender for outgoing emails.
+- `GET /users`: Retrieve a list of all registered users.
 
 ## Dependencies
 
 - `express`: Web framework for Node.js.
-- `dotenv`: Module for loading environment variables from a `.env` file.
+- `dotenv`: Module for loading environment variables from a `.env` file (if needed).
 - `typescript`: A superset of JavaScript that adds static typing to the language.
 - `ts-node-dev`: TypeScript execution and development tool that restarts the server on file changes.
 
